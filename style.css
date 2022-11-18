@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.bdy h1 {
+    text-align: center;
+    margin: 36px;
+    margin-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.bdy p {
+
+    text-align: center;
+}
+
+#bootstrap-overrides nav a img {
+    padding-right: 10px;
+}
+
+#bootstrap-overrides .navbar-dark {
+    padding: 10px;
+}
+
+#bootstrap-overrides .col {
+    text-align: center;
+    font-size: 20px;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+#bootstrap-overrides .col img {
+    width: 100%;
+}
+
+#bootstrap-overrides .col img:hover {
+    /* background: transparent; */
+    opacity: .5;
+    filter: blur(1px);
+}
+
+#bootstrap-overrides .layer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+}
+
+#bootstrap-overrides .layer h2 {
+    width: 100%;
+    top: 0;
+    height: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#bootstrap-overrides .layer:hover h2 {
+    bottom: 49%;
+    padding-top: 12%;
+    background-color: rgb(0, 7, 27);
+    opacity: 1;
+    /* filter: blur(1px); */
+}
+
+#bootstrap-overrides .carousel-item img {
+    backdrop-filter: blur(1px);
+}
+
+#bootstrap-overrides .carousel-control-prev {
+    bottom: 50%;
+}
+
+#bootstrap-overrides .carousel-control-next {
+    bottom: 50%;
+}
+
+#bootstrap-overrides .content {
+    padding: 30px;
+}
+
+#bootstrap-overrides .content h3,
+p {
+    text-align: center;
+    position: relative;
+}
+
+#bootstrap-overrides #header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+#bootstrap-overrides .navbar {
+    padding: 20px 0;
+}
+
+#bootstrap-overrides .nav-item {
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+footer {
+    bottom: 0;
+}
