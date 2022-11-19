@@ -17,11 +17,7 @@
 
     text-align: center;
 }
-/* 
-#bootstrap-overrides nav a img {
-    padding-right: 10px;
-}
- */
+
 #bootstrap-overrides .navbar-dark {
     padding: 10px;
 }
@@ -120,4 +116,9 @@ p {
 
 footer {
     bottom: 0;
+}
+
+h6 {
+    text-align: center;
+    font-weight: 600;
 }
