@@ -17,11 +17,11 @@
 
     text-align: center;
 }
-
+/* 
 #bootstrap-overrides nav a img {
     padding-right: 10px;
 }
-
+ */
 #bootstrap-overrides .navbar-dark {
     padding: 10px;
 }
