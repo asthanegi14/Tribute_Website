@@ -14,9 +14,9 @@
 }
 
 .bdy p {
-
     text-align: center;
 }
+
 
 #bootstrap-overrides .navbar-dark {
     padding: 10px;
@@ -76,9 +76,9 @@
     /* filter: blur(1px); */
 }
 
-#bootstrap-overrides .carousel-item img {
+/* #bootstrap-overrides .carousel-item img {
     backdrop-filter: blur(1px);
-}
+} */
 
 #bootstrap-overrides .carousel-control-prev {
     bottom: 50%;
@@ -86,6 +86,16 @@
 
 #bootstrap-overrides .carousel-control-next {
     bottom: 50%;
+}
+
+@media(max-width: 500px) {
+    #bootstrap-overrides .carousel-control-prev {
+        bottom: 70%;
+    }
+
+    #bootstrap-overrides .carousel-control-next {
+        bottom: 70%;
+    }
 }
 
 #bootstrap-overrides .content {
@@ -117,4 +127,3 @@ p {
 footer {
     bottom: 0;
 }
-
